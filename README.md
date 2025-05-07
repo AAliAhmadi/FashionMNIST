@@ -73,6 +73,20 @@ python main.py --no-use_svm
 --model {cnn,rnn} --batch_size 64 --hidden_size 128 --num_layers 2 --lr 0.001 --device cpu
 ```
 
+**All available options**
+| Argument        | Description                               | Default                   |
+| --------------- | ----------------------------------------- | ------------------------- |
+| `--model`       | Choose between `'cnn'` or `'rnn'`         | `'rnn'`                   |
+| `--epochs`      | Number of training epochs                 | `10`                      |
+| `--batch_size`  | Training batch size                       | `64`                      |
+| `--hidden_size` | Hidden size for RNN                       | `128`                     |
+| `--num_layers`  | Number of RNN layers                      | `2`                       |
+| `--lr`          | Learning rate                             | `1e-3`                    |
+| `--val_split`   | Fraction of training data used as dev set | `0.1`                     |
+| `--device`      | `'cuda'` or `'cpu'`                       | auto-detects              |
+| `--use_svm`     | Include SVM in sklearn comparison         | optional, default `False` |
+
+
 ### 4. Evaluate sklearn classifiers
 
 This can be done in the script using:
