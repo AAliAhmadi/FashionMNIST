@@ -82,23 +82,6 @@ python main.py --use_svm
 | `--use_svm`     | Include SVM in sklearn comparison         | optional, default `False` |
 
 
-### 4. Evaluate sklearn classifiers
-
-This can be done in the script using:
-
-```python
-from sklearn_baselines import sklearn_comparison
-results = sklearn_comparison(train_dataset, test_dataset)
-```
-
-### 5. Plotting results
-
-You can visualize training progress and final classifier comparisons using:
-
-```python
-from utils import plot_accuracies
-plot_accuracies(history, results)
-```
 
 ## 📊 Example Output
 
