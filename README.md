@@ -42,6 +42,16 @@ pip install -r requirements.txt
 
 ### 3. Run the training script
 
+#### 3.1 🧪 SVM Usage
+By default, SVM is disabled due to its high runtime. To include it in the comparison:
+```bash
+python main.py --use_svm```
+
+To explicitly disable:
+```bash
+python main.py --no-use_svm
+⚠️ Warning: Training SVM on the full dataset can be slow, especially on CPU.```
+
 ```bash
 python main.py --model cnn --epochs 10
 ```
