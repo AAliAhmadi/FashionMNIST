@@ -67,10 +67,6 @@ python main.py --no-use_svm
 ⚠️ Warning: Training SVM on the full dataset can be slow, especially on CPU.
 
 
-```bash
-python main.py --model cnn --epochs 10
-```
-
 **Add other optional arguments:**
 
 ```bash
