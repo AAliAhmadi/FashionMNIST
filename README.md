@@ -71,7 +71,7 @@ python main.py --no-use_svm
 python main.py --model cnn --epochs 10
 ```
 
-Add other optional arguments:
+**Add other optional arguments:**
 
 ```bash
 --model {cnn,rnn} --batch_size 64 --hidden_size 128 --num_layers 2 --lr 0.001 --device cpu
