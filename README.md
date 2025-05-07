@@ -83,7 +83,7 @@ python main.py --model cnn --epochs 20 --batch_size 128
 | `--use_svm`     | Include SVM in sklearn comparison         | optional, default `False` |
 
 ## ✅ Alternative Running option: 
-Just run ```comparison_fashion_mnist.ipynb``` file in your notebook!
+Just run ```run_main.ipynb``` file in your notebook!
 
 ## 📊 Example Output
 
