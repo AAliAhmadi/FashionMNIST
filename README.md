@@ -48,7 +48,7 @@ cd fashion-mnist-comparison
 Install dependencies with:
 
 ```bash
-pip install -r requirements.txt
+pip install torch torchvision scikit-learn matplotlib
 ```
 
 ### 3. Run the training script
