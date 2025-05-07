@@ -65,7 +65,7 @@ python main.py --use_svm
 **Add other optional arguments:**
 
 ```bash
--python main.py --model cnn --epochs 20 --batch_size 128 
+python main.py --model cnn --epochs 20 --batch_size 128 
 
 ```
 
