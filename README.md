@@ -30,7 +30,7 @@ This project compares the performance of deep learning models (CNN/RNN) with cla
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/fashion-mnist-comparison.git
+git clone https://github.com/AAliAhmadi/fashion-mnist-comparison.git
 cd fashion-mnist-comparison
 ```
 
