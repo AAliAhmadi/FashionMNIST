@@ -65,7 +65,8 @@ python main.py --use_svm
 **Add other optional arguments:**
 
 ```bash
---model {cnn,rnn} --batch_size 64 --hidden_size 128 --num_layers 2 --lr 0.001 --device cpu
+-python main.py --model cnn --epochs 20 --batch_size 128 
+
 ```
 
 **All available options**
