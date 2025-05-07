@@ -86,7 +86,34 @@ python main.py --model cnn --epochs 20 --batch_size 128
 
 ## 📊 Example Output
 
-Include example plots or screenshots here.
+```
+Processing Neural Network...
+Epoch 1/5  Train Loss: 0.5768  Train Acc: 79.27%  Val Acc: 86.68%
+Epoch 2/5  Train Loss: 0.3765  Train Acc: 86.54%  Val Acc: 89.38%
+Epoch 3/5  Train Loss: 0.3214  Train Acc: 88.47%  Val Acc: 90.23%
+Epoch 4/5  Train Loss: 0.2903  Train Acc: 89.65%  Val Acc: 91.05%
+Epoch 5/5  Train Loss: 0.2663  Train Acc: 90.36%  Val Acc: 91.23%
+Test Accuracy: 90.49%
+--------------------------------------
+Processing DecisionTree...
+DecisionTree: 78.88%
+---------------------------------------
+Processing NaiveBayes...
+NaiveBayes: 58.56%
+---------------------------------------
+Processing LDA...
+LDA: 81.51%
+---------------------------------------
+Processing RandomForest...
+RandomForest: 87.34%
+---------------------------------------
+Processing AdaBoost...
+AdaBoost: 54.25%
+---------------------------------------
+```
+
+![download (1)](https://github.com/user-attachments/assets/ab710fa3-078c-41d6-b874-fa7e5ef48b54)
+
 
 ## 📝 Notes
 
