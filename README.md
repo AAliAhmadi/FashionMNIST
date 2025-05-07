@@ -34,7 +34,18 @@ git clone https://github.com/AAliAhmadi/fashion-mnist-comparison.git
 cd fashion-mnist-comparison
 ```
 
-### 2. Install requirements
+### 2. 📦 Requirements
+- Python 3.7+
+
+- PyTorch
+
+- torchvision
+
+- scikit-learn
+
+- matplotlib
+
+Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
